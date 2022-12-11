@@ -1,7 +1,7 @@
 # APIProject
 Sviluppo di un'API che traduce i comandi inviati dalla Terra in istruzioni comprensibili per un rover
 
-## Configuration
+## Confiurazione
 Inastall Ruby on Rails : https://guides.rubyonrails.org/v5.0/getting_started.html
 
 ## Applicazioni
