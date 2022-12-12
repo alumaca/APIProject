@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Command name:
+  = @command.command_name
+%p
+  %b Code:
+  = @command.code
+
+= link_to 'Edit', edit_command_path(@command)
+\|
+= link_to 'Back', commands_path
