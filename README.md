@@ -7,8 +7,12 @@ Inastall Ruby on Rails : https://guides.rubyonrails.org/v5.0/getting_started.htm
 ## Applicazioni
 Ci sono due app: AppGenerateRoverDatas per inserire i dati e AppCalculateDatas che elabora i dati. Le due App sono sviluppate interamente con il framework Ruby on Rails.
 
+I DB sono in ...
+
 ## Fasi
 1. Installare Ruby
+https://www.ruby-lang.org/it/downloads/ 
+File RubyInstaller per Windows: https://rubyinstaller.org/
 2. Installare Ruby on Rails
 3. Scaricare il progetto APIProject e scompattarlo
 4. Da terminale collocarsi nella cartella /APIProject
