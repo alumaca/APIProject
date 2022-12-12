@@ -29,8 +29,8 @@ Nella cartella 'config' delll'App AppCalculateDatas c'è il file 'customSetting.
 
 Il valore è possibile cambiarlo con un'altra porta ad esempio 3020 o ...
 
-Dalla cartella APIProject/AppGenerateRoverDatas avviare AppGenerateRoverDatas con il comando
+Dalla cartella APIProject-main/AppGenerateRoverDatas avviare AppGenerateRoverDatas con il comando
 > rails s -p 3000
 
-Dalla cartella APIProject/AppCalculateDatas aviare AppCalculateDatas avviare con il comando
+Dalla cartella APIProject-main/AppCalculateDatas aviare AppCalculateDatas avviare con il comando
 > rails s -p 3020
