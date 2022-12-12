@@ -1,5 +1,5 @@
 class RoversController < ApplicationController
-  before_action :set_rover, only: %i[ show update destroy ]
+  before_action :set_rover, only: %i[ show update ]
 
   # GET /rovers or /rovers.json
   def index
@@ -52,14 +52,14 @@ class RoversController < ApplicationController
   #end
 
   # DELETE /rovers/1 or /rovers/1.json
-  def destroy
-    @rover.destroy
-
-    respond_to do |format|
-      format.html { redirect_to rovers_url, notice: "Rover was successfully destroyed." }
-      format.json { head :no_content }
-    end
-  end
+  #def destroy
+  #   @rover.destroy
+  #
+  #   respond_to do |format|
+  #     format.html { redirect_to rovers_url, notice: "Rover was successfully destroyed." }
+  #     format.json { head :no_content }
+  #   end
+  # end
 
   private
     # Use callbacks to share common setup or constraints between actions.
