@@ -26,8 +26,10 @@
 /storage/*
 !/storage/.keep
 
-/public/assets
+#/public/assets
 .byebug_history
+
+/node_modules
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
