@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  puntoPartenzaX: 1.5
+  puntoPartenzaY: 1.5
+  direzioneN: 1.5
+  direzioneS: 1.5
+  direzioneE: 1.5
+  direzioneW: 1.5
+
+two:
+  puntoPartenzaX: 1.5
+  puntoPartenzaY: 1.5
+  direzioneN: 1.5
+  direzioneS: 1.5
+  direzioneE: 1.5
+  direzioneW: 1.5
