@@ -1,5 +1,5 @@
 class RoversController < ApplicationController
-  before_action :set_rover, only: %i[ show update ]
+  before_action :set_rover, only: %i[ show  ]
 
   # GET /rovers or /rovers.json
   def index
@@ -24,19 +24,19 @@ class RoversController < ApplicationController
   #end
 
   # POST /rovers or /rovers.json
-  def create
-    @rover = Rover.new(rover_params)
-
-    respond_to do |format|
-      if @rover.save
-        format.html { redirect_to rover_url(@rover), notice: "Rover was successfully created." }
-        format.json { render :show, status: :created, location: @rover }
-      else
-        format.html { render :new, status: :unprocessable_entity }
-        format.json { render json: @rover.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+  # def create
+  #   @rover = Rover.new(rover_params)
+  #
+  #   respond_to do |format|
+  #     if @rover.save
+  #       format.html { redirect_to rover_url(@rover), notice: "Rover was successfully created." }
+  #       format.json { render :show, status: :created, location: @rover }
+  #     else
+  #       format.html { render :new, status: :unprocessable_entity }
+  #       format.json { render json: @rover.errors, status: :unprocessable_entity }
+  #     end
+  #   end
+  # end
 
   # PATCH/PUT /rovers/1 or /rovers/1.json
   #def update
