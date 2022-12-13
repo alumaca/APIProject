@@ -11,4 +11,8 @@ class CreateRovers < ActiveRecord::Migration[6.1]
       t.timestamps
     end
   end
+
+  def self.down
+    drop_table :rovers
+  end
 end
