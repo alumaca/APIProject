@@ -6,11 +6,11 @@ Inastall Ruby on Rails : https://guides.rubyonrails.org/v5.0/getting_started.htm
 
 ## Applicazioni
 Ci sono due app: AppGenerateRoverDatas per inserire i dati e AppCalculateDatas che li elabora. Le due App sono sviluppate interamente con il framework Ruby on Rails ed è stata utilizzata la [versione 6.1.7](https://github.com/rails/rails/releases/tag/v6.1.7) per la sua  stabilità (https://rubyonrails.org/2022/9/9/Rails-7-0-4-6-1-7-6-0-6-have-been-released).
-+ I DB delle App sono in SQLLite3 (https://www.sqlite.org/index.html). Su S.O. Windows è consigliato scarirare il DBML dal link https://www.sqlite.org/2022/sqlite-tools-win32-x86-3400000.zip (scompattare il file ad esempio in C:)
++ I DB delle App sono in [SQLLite3](https://www.sqlite.org/index.html). Su S.O. Windows è consigliato scarirare il DBML
 + Il FrontEnd delle App è gestito con il framework [HAML](https://haml.info/)
 
 ## Confiurazione
-1. Installare Ruby --- scaricare file RubyInstaller (https://www.ruby-lang.org/it/downloads/)
+1. Installare Ruby scaricare file RubyInstaller (https://www.ruby-lang.org/it/downloads/)
 File RubyInstaller per Windows: https://rubyinstaller.org/
 2. Installare Ruby on Rails
 
