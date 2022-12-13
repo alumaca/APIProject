@@ -13,6 +13,6 @@ class CreateRovers < ActiveRecord::Migration[6.1]
   end
 
   def self.down
-    drop_table :rovers
+    drop_table :rovers 
   end
 end
