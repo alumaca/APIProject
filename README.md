@@ -6,13 +6,13 @@ Ci sono due applicazioni: AppGenerateRoverDatas per inserire i dati e AppCalcula
 + I DB delle applicazioni sono in [SQLLite3](https://www.sqlite.org/index.html). Su S.O. Windows è consigliato scaricare il DBMS
 + Il FrontEnd delle applicazioni è gestito con il framework [HAML](https://haml.info/)
 
-## Confiurazione dei sistemi per avviare le applicazioni
+## Configurazione dei sistemi per avviare le applicazioni
 1. Installare Ruby 3.0.0 per Windows
 2. Installare il framework [rails-on-node](https://www.npmjs.com/package/rails-on-node/v/1.3.0?activeTab=readme)
 3. Installare la gemma [bundler 2.2.3](https://rubygems.org/gems/rails/versions/6.1.7)
 4. Installare la gemma [rails 6.1](https://rubygems.org/gems/rails/versions/6.1.7)
 
-## Confiurazione delle applicazioni
+## Configurazione delle applicazioni
 1. Scaricare il progetto APIProject
 2. Andare in /APIProject-main/AppGenerateRoverDatas
 3. Avviare il comando per installare le gemme usate
