@@ -1,0 +1,26 @@
+%p#notice= notice
+%h1 Rovers
+%table
+  %thead
+    %tr
+      %th Puntopartenzax
+      %th Puntopartenzay
+      %th Direzionen
+      %th Direziones
+      %th Direzionee
+      %th Direzionew
+      %th{:colspan => "3"}
+  %tbody
+    - @rovers.each do |rover|
+      %tr
+        %td= rover.puntoPartenzaX
+        %td= rover.puntoPartenzaY
+        %td= rover.direzioneN
+        %td= rover.direzioneS
+        %td= rover.direzioneE
+        %td= rover.direzioneW
+        %td= link_to 'Show', rover
+        //%td= link_to 'Edit', edit_rover_path(rover)
+        //%td= link_to 'Destroy', rover, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Rover', new_rover_path

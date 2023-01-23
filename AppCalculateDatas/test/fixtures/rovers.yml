@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  puntoPartenzaX: MyString
+  puntoPartenzaY: MyString
+  direzioneN: MyString
+  direzioneS: MyString
+  direzioneE: MyString
+  direzioneW: MyString
+  command_id: 
+
+two:
+  puntoPartenzaX: MyString
+  puntoPartenzaY: MyString
+  direzioneN: MyString
+  direzioneS: MyString
+  direzioneE: MyString
+  direzioneW: MyString
+  command_id: 

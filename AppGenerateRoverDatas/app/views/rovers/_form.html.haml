@@ -1,0 +1,29 @@
+= form_with(model: @rover, url: @url, method: @method.to_sym) do |form|
+  - if rover.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(rover.errors.count, "error")
+        prohibited this rover from being saved:
+      %ul
+        - rover.errors.each do |error|
+          %li= error.full_message
+  .field
+    = form.label :puntoPartenzaX
+    = form.text_field :puntoPartenzaX
+  .field
+    = form.label :puntoPartenzaY
+    = form.text_field :puntoPartenzaY
+  .field
+    = form.label :direzioneN
+    = form.text_field :direzioneN
+  .field
+    = form.label :direzioneS
+    = form.text_field :direzioneS
+  .field
+    = form.label :direzioneE
+    = form.text_field :direzioneE
+  .field
+    = form.label :direzioneW
+    = form.text_field :direzioneW
+  .actions
+    = form.submit

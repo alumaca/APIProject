@@ -1,0 +1,22 @@
+%p#notice= notice
+%p
+  %strong Puntopartenzax:
+  = @rover.puntoPartenzaX
+%p
+  %strong Puntopartenzay:
+  = @rover.puntoPartenzaY
+%p
+  %strong Direzionen:
+  = @rover.direzioneN
+%p
+  %strong Direziones:
+  = @rover.direzioneS
+%p
+  %strong Direzionee:
+  = @rover.direzioneE
+%p
+  %strong Direzionew:
+  = @rover.direzioneW
+//= link_to 'Edit', edit_rover_path(@rover)
+//|
+= link_to 'Back', rovers_path

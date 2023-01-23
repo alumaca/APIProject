@@ -1,0 +1,31 @@
+= form_for @rover do |f|
+  - if @rover.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@rover.errors.count, "error")} prohibited this rover from being saved:"
+      %ul
+        - @rover.errors.full_messages.each do |message|
+          %li= message
+
+  .field
+    = f.label :puntoPartenzaX
+    = f.text_field :puntoPartenzaX
+  .field
+    = f.label :puntoPartenzaY
+    = f.text_field :puntoPartenzaY
+  .field
+    = f.label :direzioneN
+    = f.text_field :direzioneN
+  .field
+    = f.label :direzioneS
+    = f.text_field :direzioneS
+  .field
+    = f.label :direzioneE
+    = f.text_field :direzioneE
+  .field
+    = f.label :direzioneW
+    = f.text_field :direzioneW
+  .field
+    = f.label :command_id
+    = f.text_field :command_id
+  .actions
+    = f.submit 'Save'

@@ -1,0 +1,30 @@
+%h1 Listing rovers
+
+= link_to 'Retrive data', retrive_index_path
+%table
+  %thead
+    %tr
+      %th Puntopartenzax
+      %th Puntopartenzay
+      %th Direzionen
+      %th Direziones
+      %th Direzionee
+      %th Direzionew
+      %th Command
+      %th
+      %th
+      %th
+
+  %tbody
+    - @rovers.each do |rover|
+      %tr
+        %td= rover.puntoPartenzaX
+        %td= rover.puntoPartenzaY
+        %td= rover.direzioneN
+        %td= rover.direzioneS
+        %td= rover.direzioneE
+        %td= rover.direzioneW
+        %td= rover.command.command_name
+        %td= link_to 'Show', rover
+        //%td= link_to 'Destroy', rover, method: :delete, data: { confirm: 'Are you sure?' }
+%br
