@@ -1,5 +1,6 @@
 # APIProject
-Sviluppo di un'API che traduce i comandi inviati dalla Terra per elaborazioni numeriche.
+Sviluppo di un'API per effettuare elaborazioni numeriche di una stesso dato.
+Un possibile suo utilizzo è per la traduzione di comandi inviati dalla Terra.
 
 ## Applicazioni
 Ci sono due applicazioni: AppGenerateRoverDatas per inserire i dati e AppCalculateDatas che li elabora. Le due applicazioni  sono sviluppate interamente con il framework Ruby on Rails ed è stata utilizzata la [versione 6.1.7](https://github.com/rails/rails/releases/tag/v6.1.7) per la sua  stabilità (https://rubyonrails.org/2022/9/9/Rails-7-0-4-6-1-7-6-0-6-have-been-released).
